@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gotech Web Solutions</title>
+    <title>Go Tech Web Solutions</title>
     <meta name="description" content="Your Description Here">
     <meta name="keywords" content="free boostrap, bootstrap template, freebies, free theme, free website, free portfolio theme, portfolio, personal, cv">
     <meta name="author" content="Jenn, ThemeForces.com">
@@ -113,7 +113,7 @@
                         <h2>Services</h2>
                         <hr>
                     </div>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At minima, nesciunt non aut quasi quos.</p>
                 </div>
             </div>
 
@@ -166,7 +166,7 @@
                         <h2>Our Recent Projects</h2>
                         <hr>
                     </div>
-                    <p>Here are our most recent and most estimable tasks over time 2020-2021. The portfolio is shown dependent on the remarks of customers by their fulfillment.</p>
+                    <p>Here are our most recent and most estimable works overtime 2020-2021. The portfolio is shown dependent on the remarks of customers by their fulfillment.</p>
                 </div>
             </div>
             <div class="space"></div>
@@ -182,7 +182,7 @@
                                     <p class="lead">Client Seal</p>
                                     <div class="hline"></div>
                                 </div>
-                                <img src="img/portfolio/01.jpg" class="img-responsive" alt="...">
+                                <img src="img/portfolio/aggte.jpg" class="img-responsive" alt="...">
                             </a>
                         </div>
                     </div>
@@ -274,13 +274,35 @@
             <div class="row">
                 <div class="col-md-10 col-sm-10">
                     <div class="row">
+
+                        <div class="col-md-4 col-sm-4">
+                            <div class="team">
+                                <img src="img/team/03.jpg" class="img-responsive img-circle" alt="...">
+                                <br>
+                                <h4>Mayeth Go</h4>
+                                <p class="small">CEO/Founder</p>
+                                <hr>
+                                <!--  -->
+                                <div class="flex-icon">
+                                    <a href=""><div class="icon-social-facebook"></div></a>
+                                </div>
+                                <!--  -->
+                            </div>
+                        </div>
+                        
                         <div class="col-md-4 col-sm-4">
                             <div class="team">
                                 <img src="img/team/02.jpg" class="img-responsive img-circle" alt="...">
                                 <br>
-                                <h4>Lian Gwapa</h4>
-                                <p class="small">CEO/Founder</p>
+                                <h4>Arnel Go</h4>
+                                <p class="small">Manager & All Rounder</p>
                                 <hr>
+                                <!--  -->
+                                <div class="flex-icon">
+                                    <a href=""><div class="icon-social-facebook"></div></a>
+                                    <a href=""><div class="icon-social-youtube"></div></a>
+                                </div>
+                                <!--  -->
                             </div>
                         </div>
 
@@ -288,19 +310,30 @@
                             <div class="team">
                                 <img src="img/team/04.jpg" class="img-responsive img-circle" alt="...">
                                 <br>
-                                <h4>Jenn Pereira</h4>
-                                <p class="small">Web Coder</p>
+                                <h4>Janzen Go</h4>
+                                <p class="small">Senior Web Coder</p>
                                 <hr>
+                                <!--  -->
+                                <div class="flex-icon">
+                                    <a href=""><div class="icon-social-facebook"></div></a>
+                                    <a href=""><div class="icon-social-youtube"></div></a>
+                                </div>
+                                <!--  -->
                             </div>
                         </div>
 
                         <div class="col-md-4 col-sm-4">
                             <div class="team">
-                                <img src="img/team/03.jpg" class="img-responsive img-circle" alt="...">
+                                <img src="img/team/justin.jpg" class="img-responsive img-circle" alt="...">
                                 <br>
-                                <h4>Alan Podemski</h4>
-                                <p class="small">Web Designer</p>
+                                <h4>Justin Go</h4>
+                                <p class="small">Junior Web Coder</p>
                                 <hr>
+                                <!--  -->
+                                <div class="flex-icon">
+                                    <a href=""><div class="icon-social-facebook"></div></a>
+                                </div>
+                                <!--  -->
                             </div>
                         </div>
 
@@ -389,7 +422,7 @@
                             <li><a href=""><span class="fa fa-google-plus"></span></a></li>
                             <li><a href=""><span class="fa fa-twitter"></span></a></li>
                             <li><a href=""><span class="fa fa-youtube"></span></a></li>
-                          </ul>
+                        </ul>
                     </address>
                 </div>
 
@@ -418,7 +451,7 @@
     <nav id="footer">
         <div class="container">
              <div class="pull-left">
-                <p>2021 © GoTech Web Solutions. All Rights Reserved.
+                <p>2021 © Go Tech Web Solutions. All Rights Reserved.
             </div>
             <div class="pull-right"> 
                 <a href="#home" class="page-scroll">Back to Top <span class="fa fa-angle-up"></span></a>
@@ -440,7 +473,7 @@
     <script>
       $(function(){
           $("#head-title").typed({
-            strings: ["We make websites^1000", "24/7 available for hire^1000" ,"Web design with diffence^1000"],
+            strings: ["We make websites^1000", "24/7 available for hire^1000" ,"Web design with difference^1000", "Si Marian ay Bundat^1000"],
             typeSpeed: 100,
             loop: true,
             startDelay: 100

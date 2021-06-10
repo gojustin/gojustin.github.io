@@ -217,6 +217,37 @@ background-color: transparent;
 	padding: 60px 0;
 }
 
+/* Socials in About Us */
+.icon-social-facebook:before{
+	content: "\f09a";
+	display: inline-block;
+  	font: normal normal normal 14px/1 FontAwesome;
+  	font-size: 20px;
+  	text-rendering: auto;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  	color: black;
+  	vertical-align: middle;
+	margin: 0px 12px;
+}
+.icon-social-youtube:before{
+	content: "\f167";
+	display: inline-block;
+  	font: normal normal normal 14px/1 FontAwesome;
+  	font-size: 20px;
+  	text-rendering: auto;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  	color: black;
+  	vertical-align: middle;
+	margin: 0px 12px;
+}
+.flex-icon{
+ 	display: flex;
+	justify-content: center;
+}
+/*  */
+
 a.down-btn span.fa.fa-angle-down {
 	font-size: 26px;
 	border: 1px solid #ff671e;
@@ -553,7 +584,7 @@ margin-bottom: 30px;
 	padding: 7px 12px;
 	font-size: 14px;
 	line-height: 1.42857143;
-	color: #555;
+	color: #fff;
 	background-color: #1e2429;
 	background-image: none;
 	border: 0;
