@@ -151,11 +151,11 @@
     </div>
 
     <!-- Call-to-Action Section -->
-    <div id="cta">
+    <!-- <div id="cta">
         <div class="container text-center">
             <a href="#" class="btn go-to-btn">Check our shop</a>
         </div>
-    </div>
+    </div> -->
 
     <!-- Portfolio Section -->
     <div id="works">
@@ -163,10 +163,10 @@
             <div class="row text-center">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="section-title">
-                        <h2>Our Latest Projects</h2>
+                        <h2>Our Recent Projects</h2>
                         <hr>
                     </div>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+                    <p>Here are our most recent and most estimable tasks over time 2020-2021. The portfolio is shown dependent on the remarks of customers by their fulfillment.</p>
                 </div>
             </div>
             <div class="space"></div>
@@ -267,7 +267,7 @@
                         <h2>About Us</h2>
                         <hr>
                     </div>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum maiores provident suscipit porro, sapiente id.</p>
                 </div>
             </div>
             <div class="space"></div>
@@ -377,12 +377,13 @@
                         ThemeForces.Com<br>
                         Igbalangao, Bugasong, Anitque<br>
                         5704, Philippines<br>
-                        Phone: (123) 456-7890
+                        Landline: <br>
+                        Phone: 
                         <ul class="social">
-                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                            <li><a href="#"><span class="fa fa-dribbble"></span></a></li>
+                            <li><a href=""><span class="fa fa-facebook"></span></a></li>
+                            <li><a href=""><span class="fa fa-google-plus"></span></a></li>
+                            <li><a href=""><span class="fa fa-twitter"></span></a></li>
+                            <li><a href=""><span class="fa fa-youtube"></span></a></li>
                           </ul>
                     </address>
                 </div>
@@ -412,7 +413,7 @@
     <nav id="footer">
         <div class="container">
              <div class="pull-left">
-                <p>2014 © Arcadia. All Rights Reserved. Coded by <a href="https://dribbble.com/jennpereira">Jenn</a> & Designed by <a href="https://dribbble.com/alanpodemski">Alan</a></p>
+                <p>2021 © GoTech Web Solutions. All Rights Reserved. Coded & Designed by the <a href="#about-us">GoTech Team</a></p>
             </div>
             <div class="pull-right"> 
                 <a href="#home" class="page-scroll">Back to Top <span class="fa fa-angle-up"></span></a>
