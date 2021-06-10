@@ -267,7 +267,7 @@
                         <h2>About Us</h2>
                         <hr>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum maiores provident suscipit porro, sapiente id.</p>
+                    <p>Go Tech Web Solutions is a small family-run company made out of experienced individuals to make imaginative plans for a website.</p>
                 </div>
             </div>
             <div class="space"></div>
@@ -307,7 +307,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-2 col-sm-2">
+                <!-- <div class="col-md-2 col-sm-2">
                     <div class="team hire">
                         <h4>We Are Hiring!</h4>
                         <hr>
@@ -316,7 +316,7 @@
                             <span class="fa fa-paper-plane-o fa-2x"></span>
                         </a>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <div class="text-center">
@@ -333,7 +333,7 @@
         <div class="overlay">
             <div class="container">
                 <div class="section-title">
-                    <h2>What my Clients Say...</h2>
+                    <h2>What our Customers Say...</h2>
                     <hr>
                 </div>
 
@@ -341,7 +341,7 @@
                   <div class="item">
                     <h3>Et iusto odio dignissimos ducimus qui blanditiis <br>praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint <br>occaecati cupiditate non provident. </h3>
                     <br>
-                    <h6>LJ, Abc Company</h6>
+                    <h6>AGGTEDeck Composite Cladding</h6>
                   </div>
 
                   <div class="item">
@@ -372,13 +372,18 @@
             <div class="row">
                 <div class="col-md-3">
                     <address>
-                        <strong>Address</strong><br>
-                        <br>
-                        ThemeForces.Com<br>
-                        Igbalangao, Bugasong, Anitque<br>
-                        5704, Philippines<br>
-                        Landline: <br>
-                        Phone: 
+                        <strong>Address</strong><br><br>
+                        #6 M&M Arcade Building, Laqui Street, Pinagkurusan, Alitagtag, Batangas<br>
+                        4208 Philippines<br><br>
+                            <!-- Separated contacts with icon -->
+                        <div class="icon-contacts">
+                            <strong>Contacts</strong><br>
+                            <br>
+                            gotech.websolutions@gmail.com<br>
+                            Landline: (043) 723 9500<br>
+                            Phone: 0975 2412 350
+                        </div>
+                            <!---->
                         <ul class="social">
                             <li><a href=""><span class="fa fa-facebook"></span></a></li>
                             <li><a href=""><span class="fa fa-google-plus"></span></a></li>
@@ -413,7 +418,7 @@
     <nav id="footer">
         <div class="container">
              <div class="pull-left">
-                <p>2021 © GoTech Web Solutions. All Rights Reserved. Coded & Designed by the <a href="#about-us">GoTech Team</a></p>
+                <p>2021 © GoTech Web Solutions. All Rights Reserved.
             </div>
             <div class="pull-right"> 
                 <a href="#home" class="page-scroll">Back to Top <span class="fa fa-angle-up"></span></a>
