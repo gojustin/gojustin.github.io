@@ -218,33 +218,18 @@ background-color: transparent;
 }
 
 /* Socials in About Us */
-.icon-social-facebook:before{
-	content: "\f09a";
-	display: inline-block;
-  	font: normal normal normal 14px/1 FontAwesome;
-  	font-size: 20px;
-  	text-rendering: auto;
-  	-webkit-font-smoothing: antialiased;
-  	-moz-osx-font-smoothing: grayscale;
-  	color: black;
-  	vertical-align: middle;
-	margin: 0px 12px;
-}
-.icon-social-youtube:before{
-	content: "\f167";
-	display: inline-block;
-  	font: normal normal normal 14px/1 FontAwesome;
-  	font-size: 20px;
-  	text-rendering: auto;
-  	-webkit-font-smoothing: antialiased;
-  	-moz-osx-font-smoothing: grayscale;
-  	color: black;
-  	vertical-align: middle;
-	margin: 0px 12px;
-}
 .flex-icon{
- 	display: flex;
 	justify-content: center;
+	font-size: 18px;
+}
+
+#about-icons{
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+#about-icons:hover{
+	color: black;
 }
 /*  */
 

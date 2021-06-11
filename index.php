@@ -284,7 +284,9 @@
                                 <hr>
                                 <!--  -->
                                 <div class="flex-icon">
-                                    <a href=""><div class="icon-social-facebook"></div></a>
+                                    <a href="" class="fa fa-facebook" id="about-icons"></a>
+                                    <a href="" class="fa fa-linkedin" id="about-icons"></a>
+                                    <a href="" class="fa fa-youtube" id="about-icons"></a>
                                 </div>
                                 <!--  -->
                             </div>
@@ -299,8 +301,9 @@
                                 <hr>
                                 <!--  -->
                                 <div class="flex-icon">
-                                    <a href=""><div class="icon-social-facebook"></div></a>
-                                    <a href=""><div class="icon-social-youtube"></div></a>
+                                    <a href="" class="fa fa-facebook" id="about-icons"></a>
+                                    <a href="" class="fa fa-linkedin" id="about-icons"></a>
+                                    <a href="" class="fa fa-youtube" id="about-icons"></a>
                                 </div>
                                 <!--  -->
                             </div>
@@ -315,8 +318,9 @@
                                 <hr>
                                 <!--  -->
                                 <div class="flex-icon">
-                                    <a href=""><div class="icon-social-facebook"></div></a>
-                                    <a href=""><div class="icon-social-youtube"></div></a>
+                                    <a href="" class="fa fa-facebook" id="about-icons"></a>
+                                    <a href="" class="fa fa-linkedin" id="about-icons"></a>
+                                    <a href="" class="fa fa-youtube" id="about-icons"></a>
                                 </div>
                                 <!--  -->
                             </div>
@@ -331,7 +335,9 @@
                                 <hr>
                                 <!--  -->
                                 <div class="flex-icon">
-                                    <a href=""><div class="icon-social-facebook"></div></a>
+                                    <a href="" class="fa fa-facebook" id="about-icons"></a>
+                                    <a href="" class="fa fa-linkedin" id="about-icons"></a>
+                                    <a href="" class="fa fa-youtube" id="about-icons"></a>
                                 </div>
                                 <!--  -->
                             </div>
@@ -381,6 +387,18 @@
                     <h3>Fusce dapibus, tellus ac cursus commodo, tortor<br> mauris condimentum. Duis mollis, est non commodo luctus, nisi erat </h3>
                     <br>
                     <h6>Kai, Web Geekster</h6>
+                  </div>
+
+                  <div class="item">
+                    <h3>Cras justo odio, dapibus ac facilisis in, egestas <br>eget quam. Donec id elit non mi porta gravida at eget metus.</h3>
+                    <br>
+                    <h6>Jenn, Coders' Playground</h6>
+                  </div>
+
+                  <div class="item">
+                    <h3>Cras justo odio, dapibus ac facilisis in, egestas <br>eget quam. Donec id elit non mi porta gravida at eget metus.</h3>
+                    <br>
+                    <h6>Jenn, Coders' Playground</h6>
                   </div>
 
                   <div class="item">
@@ -473,7 +491,7 @@
     <script>
       $(function(){
           $("#head-title").typed({
-            strings: ["We make websites^1000", "24/7 available for hire^1000" ,"Web design with difference^1000", "Si Marian ay Bundat^1000"],
+            strings: ["We make websites^1000", "24/7 available for hire^1000" ,"Web design with difference^1000"],
             typeSpeed: 100,
             loop: true,
             startDelay: 100
