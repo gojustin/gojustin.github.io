@@ -176,14 +176,22 @@
                 <div class="col-md-3 col-sm-6 nopadding">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="#">
+                            <!-- == 01 Lightbox == -->
                                 <div class="hover-text">
+                                    <div class="fa fa-search" id="myClick"></div>
                                     <h5>Logo Design</h5>
                                     <p class="lead">Client Seal</p>
                                     <div class="hline"></div>
                                 </div>
-                                <img src="img/portfolio/aggte.jpg" class="img-responsive" alt="...">
-                            </a>
+                                <img src="img/portfolio/aggte.jpg" id="myImg" class="img-responsive" alt="AGGTEdeck">
+                                <!-- MODAL -->
+                                <div id="myModal" class="modal">
+                                    <span class="close-modal">&times;</span>
+                                    <img class="modal-content" id="modal-img">
+                                    <div id="caption"></div>
+                                </div>
+                                <!--  -->
+                            <!-- == End 01Lightbox == -->
                         </div>
                     </div>
                 </div>
@@ -502,6 +510,7 @@
     <!-- Javascripts
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/img-modal.js"></script>
 
   </body>
 </html>
