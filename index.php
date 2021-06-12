@@ -29,6 +29,7 @@
     <!-- Stylesheet
     ================================================== -->
     <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/img-modal.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
@@ -178,62 +179,71 @@
                         <div class="hover-bg">
                             <!-- == 01 Lightbox == -->
                                 <div class="hover-text">
-                                    <div class="fa fa-search" id="myClick"></div>
+                                    <div class="fa fa-search" onclick="openModal();currentSlide(1)"></div>
                                     <h5>Logo Design</h5>
                                     <p class="lead">Client Seal</p>
                                     <div class="hline"></div>
                                 </div>
-                                <img src="img/portfolio/aggte.jpg" id="myImg" class="img-responsive" alt="AGGTEdeck">
-                                <!-- MODAL -->
-                                <div id="myModal" class="modal">
+
+                                <img src="img/portfolio/aggte.jpg" class="img-responsive" alt="...">
+                                <!-- SINGLE MODAL -->
+                                <!-- <div id="myModal" class="modal">
                                     <span class="close-modal">&times;</span>
-                                    <img class="modal-content" id="modal-img">
+                                    <img class="modal-content" id="img01">
                                     <div id="caption"></div>
-                                </div>
+                                    
+                                </div> -->
                                 <!--  -->
-                            <!-- == End 01Lightbox == -->
+                            <!-- == End 01 Lightbox == -->
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 nopadding">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="#">
+                            <!-- == 02 Lightbox == -->
                                 <div class="hover-text">
+                                    <div class="fa fa-search" onclick="openModal();currentSlide(2)"></div>
                                     <h5>Stationery</h5>
                                     <p class="lead">Design Project</p>
                                     <div class="hline"></div>
                                 </div>
+
                                 <img src="img/portfolio/02.jpg" class="img-responsive" alt="...">
-                            </a>
+                            <!-- == End 02 Lightbox == -->                        
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-3 col-sm-6 nopadding">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h5>Branding</h5>
-                                    <p class="lead">Metalbrand</p>
-                                    <div class="hline"></div>
-                                </div>
-                            </a>
+                            <!-- == 03 Lightbox == -->
+                            <div class="hover-text">
+                                <div class="fa fa-search" onclick="openModal();currentSlide(3)"></div>
+                                <h5>Branding</h5>
+                                <p class="lead">Metalbrand</p>
+                                <div class="hline"></div>
+                            </div>
+
                             <img src="img/portfolio/03.jpg" class="img-responsive" alt="...">
+                            <!-- == End 03 Lightbox == -->
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 nopadding">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="#">
-                                <div class="hover-text">
-                                    <h5>Business Card</h5>
-                                    <p class="lead">Clothing Line</p>
-                                    <div class="hline"></div>
-                                </div>
-                            </a>
+                            <!-- == 04 Lightbox == -->
+                            <div class="hover-text">
+                                <div class="fa fa-search" onclick="openModal();currentSlide(4)"></div>
+                                <h5>Business Card</h5>
+                                <p class="lead">Clothing Line</p>
+                                <div class="hline"></div>
+                            </div>
+
                             <img src="img/portfolio/04.jpg" class="img-responsive" alt="...">
+                            <!-- == End 04 Lightbox == -->
                         </div>
                     </div>
                 </div>
@@ -246,6 +256,51 @@
             <a href="#about-us" class="down-btn page-scroll"><span class="fa fa-angle-down"></span></a>
         </div>
     </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <span class="close-modal cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <div class="mySlides">
+                <img src="img/portfolio/aggte.jpg" style="width:100%;max-width:800px;">
+            </div>
+
+            <div class="mySlides">
+                <img src="img/portfolio/02.jpg" style="width:100%;max-width:800px;">
+            </div>
+
+            <div class="mySlides">
+                <img src="img/portfolio/03.jpg" style="width:100%;max-width:800px;">
+            </div>
+            
+            <div class="mySlides">
+                <img src="img/portfolio/04.jpg" style="width:100%;max-width:800px;">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Demo -->
+            <div class="column">
+                <img class="demo cursor" src="img/portfolio/aggte.jpg" style="width:100%" onclick="currentSlide(1)" alt="AGGTE Cladding & Decking">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/portfolio/02.jpg" style="width:100%" onclick="currentSlide(2)" alt="...">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/portfolio/03.jpg" style="width:100%" onclick="currentSlide(3)" alt="...">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="img/portfolio/04.jpg" style="width:100%" onclick="currentSlide(4)" alt="...">
+            </div>
+        </div>
+    </div>
+                <!-- === -->
 
     <!-- Clients Section -->
     <div id="clients">
@@ -511,6 +566,7 @@
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/img-modal.js"></script>
+    <script type="text/javascript" src="js/lightbox.js"></script>
 
   </body>
 </html>
