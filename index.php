@@ -114,7 +114,7 @@
                         <h2>Services</h2>
                         <hr>
                     </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At minima, nesciunt non aut quasi quos.</p>
+                    <p>We make from school projects to a company's dream websites.</p>
                 </div>
             </div>
 
@@ -123,7 +123,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-4">
                     <div class="service">
-                        <span class="fa fa-book fa-3x"></span>
+                        <span class="fa fa-phone fa-3x"></span>
                         <h4>Branding</h4>
                         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis. </p>
                     </div>
@@ -299,6 +299,7 @@
                 <img class="demo cursor" src="img/portfolio/04.jpg" style="width:100%" onclick="currentSlide(4)" alt="...">
             </div>
         </div>
+        
     </div>
                 <!-- === -->
 
@@ -567,6 +568,5 @@
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/img-modal.js"></script>
     <script type="text/javascript" src="js/lightbox.js"></script>
-
   </body>
 </html>

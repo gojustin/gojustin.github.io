@@ -349,6 +349,7 @@ a.btn.go-to-btn:hover{
 }
 .hover-bg:hover .hover-text>h5{
 	opacity: 1;
+	backface-visibility:hidden;
     -webkit-backface-visibility:hidden;
     -webkit-transform: translateY(0);
             transform: translateY(0);
@@ -361,6 +362,7 @@ a.btn.go-to-btn:hover{
 }
 .hover-bg:hover .hover-text>.hline{
 	opacity: 1;
+	backface-visibility:hidden;
     -webkit-backface-visibility:hidden;
    -webkit-transform: translateY(100%);
             transform: translateY(100%);
@@ -431,8 +433,8 @@ a.btn.send-btn:hover{
 
 ul, ol{
 	padding: 0;
-	moz-padding: 0;
-	webkit-padding: 0;
+	-moz-appearance: 0;
+	-webkit-appearance: 0;
 }
 
 ul.clients li{
