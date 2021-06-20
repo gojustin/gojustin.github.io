@@ -47,7 +47,15 @@
         <ul class="nav navmenu-nav"> <!--- Menu -->
             <li><a href="#home" class="page-scroll">Home</a></li>
             <li><a href="#meet-us" class="page-scroll">Overview</a></li>
-            <li><a href="#services" class="page-scroll">Services</a></li>
+            <li><a href="#services" class="page-scroll dropdown-btn">Services</a></li>
+            <!-- Dropdown Starts -->
+                <i class="fa fa-caret-down"></i>
+                <div class="dropdown-container">
+                    <a href="#">Features</a>
+                    <a href="#">Expertise</a>
+                    <a href="#">Skills</a>
+                </div>
+            <!-- Dropdown Ends -->
             <li><a href="#works" class="page-scroll">Portfolio</a></li>
             <li><a href="#about-us" class="page-scroll">About Us</a></li>
             <li><a href="#contact" class="page-scroll">Contact Us</a></li>
@@ -258,7 +266,7 @@
     </div>
 
     <!-- Modal -->
-    <div id="myModal" class="modal">
+    <div id="myModal" class="modal" onclick="closeModal()">
         <span class="close-modal cursor" onclick="closeModal()">&times;</span>
         <div class="modal-content">
 

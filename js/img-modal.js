@@ -17,6 +17,3 @@ var span = document.getElementsByClassName("close-modal")[0];
 span.onclick = function(){ 
 modal.style.display = "none";
 }
-
-
-// Slides
