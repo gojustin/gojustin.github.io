@@ -5,6 +5,12 @@ function openModal() {
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
 }
+var modal = document.getElementById('myModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = 'none';
+  }
+}
 
 var slideIndex = 1;
 showSlides(slideIndex);

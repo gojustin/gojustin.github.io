@@ -5474,9 +5474,9 @@ button.close {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1040;
+  z-index: -1;
   display: none;
-  overflow: hidden;
+  overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
@@ -5505,6 +5505,7 @@ button.close {
   margin: 10px;
 }
 .modal-content {
+  z-index: 1040;
   position: relative;
   background-color: #fff;
   -webkit-background-clip: padding-box;

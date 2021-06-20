@@ -269,7 +269,6 @@
     <div id="myModal" class="modal" onclick="closeModal()">
         <span class="close-modal cursor" onclick="closeModal()">&times;</span>
         <div class="modal-content">
-
             <div class="caption-container">
                 <p id="caption"></p>
             </div>
@@ -307,8 +306,10 @@
                 <img class="demo cursor" src="img/portfolio/04.jpg" style="width:100%" onclick="currentSlide(4)" alt="...">
             </div>
         </div>
-        
+        <div class="fullRow" onclick="closeModal()">
     </div>
+    </div>
+    
                 <!-- === -->
 
     <!-- Clients Section -->

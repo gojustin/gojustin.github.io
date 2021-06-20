@@ -106,6 +106,7 @@
 
 	/* Modal Content */
 	.modal-content {
+		z-index: 1040;
 		position: relative;
 		background-color: transparent;
 		margin: auto;
