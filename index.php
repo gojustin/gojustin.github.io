@@ -131,7 +131,7 @@
 
                 <div class="col-md-4 col-sm-4">
                     <div class="service">
-                        <span class="fa fa-bicycle fa-3x"></span>
+                        <span class="fa fa-laptop fa-3x"></span>
                         <h4>Web Devepment</h4>
                         <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Accusamus et. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis </p>
                     </div>
@@ -336,12 +336,11 @@
             </div>
             <div class="space"></div>
             <div class="row">
-                <div class="col-md-10 col-sm-10">
-                    <div class="row">
-
+                <!-- <div class="col-md-10 col-sm-10"> -->
+                    <!-- <div class="row"> -->
                         <div class="col-md-4 col-sm-4">
                             <div class="team">
-                                <img src="img/team/03.jpg" class="img-responsive img-circle" alt="...">
+                                <img src="img/team/mayeth.jpg" class="img-responsive img-circle" alt="...">
                                 <br>
                                 <h4>Mayeth Go</h4>
                                 <p class="small">CEO/Founder</p>
@@ -407,8 +406,8 @@
                             </div>
                         </div>
 
-                    </div>
-                </div>
+                    <!-- </div> -->
+                <!-- </div> -->
 
                 <!-- <div class="col-md-2 col-sm-2">
                     <div class="team hire">
@@ -420,6 +419,7 @@
                         </a>
                     </div>
                 </div> -->
+
             </div>
 
             <div class="text-center">
