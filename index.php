@@ -266,7 +266,7 @@
     </div>
 
     <!-- Modal -->
-    <div id="myModal" class="modal" onclick="closeModal()">
+    <div id="myModal" class="modal">
         <span class="close-modal cursor" onclick="closeModal()">&times;</span>
         <div class="modal-content">
             <div class="caption-container">
