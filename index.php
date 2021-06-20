@@ -180,12 +180,12 @@
                             <!-- == 01 Lightbox == -->
                                 <div class="hover-text">
                                     <div class="fa fa-search" onclick="openModal();currentSlide(1)"></div>
-                                    <h5>Logo Design</h5>
-                                    <p class="lead">Client Seal</p>
+                                    <h5>We can create your desired</h5>
+                                    <p class="lead">Business Website</p>
                                     <div class="hline"></div>
                                 </div>
 
-                                <img src="img/portfolio/aggte.jpg" class="img-responsive" alt="...">
+                                <img src="img/portfolio/aggtedeck.jpg" class="img-responsive" alt="...">
                                 <!-- SINGLE MODAL -->
                                 <!-- <div id="myModal" class="modal">
                                     <span class="close-modal">&times;</span>
@@ -204,12 +204,12 @@
                             <!-- == 02 Lightbox == -->
                                 <div class="hover-text">
                                     <div class="fa fa-search" onclick="openModal();currentSlide(2)"></div>
-                                    <h5>Stationery</h5>
-                                    <p class="lead">Design Project</p>
+                                    <h5>Exclusive</h5>
+                                    <p class="lead">School Projects</p>
                                     <div class="hline"></div>
                                 </div>
 
-                                <img src="img/portfolio/02.jpg" class="img-responsive" alt="...">
+                                <img src="img/portfolio/school-project.jpg" class="img-responsive" alt="...">
                             <!-- == End 02 Lightbox == -->                        
                         </div>
                     </div>
@@ -267,11 +267,11 @@
             </div>
 
             <div class="mySlides">
-                <img src="img/portfolio/aggte.jpg" style="width:100%;max-width:800px;">
+                <img src="img/portfolio/aggtedeck.jpg" style="width:100%;max-width:800px;">
             </div>
 
             <div class="mySlides">
-                <img src="img/portfolio/02.jpg" style="width:100%;max-width:800px;">
+                <img src="img/portfolio/school-project.jpg" style="width:100%;max-width:800px;">
             </div>
 
             <div class="mySlides">
@@ -287,10 +287,10 @@
 
             <!-- Demo -->
             <div class="column">
-                <img class="demo cursor" src="img/portfolio/aggte.jpg" style="width:100%" onclick="currentSlide(1)" alt="AGGTE Cladding & Decking">
+                <img class="demo cursor" src="img/portfolio/aggtedeck.jpg" style="width:100%" onclick="currentSlide(1)" alt="AGGTE Cladding & Decking">
             </div>
             <div class="column">
-                <img class="demo cursor" src="img/portfolio/02.jpg" style="width:100%" onclick="currentSlide(2)" alt="...">
+                <img class="demo cursor" src="img/portfolio/school-project.jpg" style="width:100%" onclick="currentSlide(2)" alt="School Project: Computer Science, Grade 9, Fame Academy of Science and Technology">
             </div>
             <div class="column">
                 <img class="demo cursor" src="img/portfolio/03.jpg" style="width:100%" onclick="currentSlide(3)" alt="...">
