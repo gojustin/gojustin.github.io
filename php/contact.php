@@ -23,7 +23,7 @@
             echo "Email sent!"; 
             echo "<script>
                 setTimeout(function(){
-                window.location.href = 'index.php';
+                window.location.href = '../index.php';
              }, 3000);
             </script>";
         }

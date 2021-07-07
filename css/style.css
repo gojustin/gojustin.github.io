@@ -145,14 +145,155 @@ span.typed-cursor {
 	margin: 0 auto;
 }*/
 
-nav#menu span.fa.fa-bars{
+/* =================== NAV BAR ====================== */
+.container-header{
+    width: 100%;
+    display: flex;
+	align-items: center;
+    justify-content: center;
+}
+header .header{
+	position: fixed;
+    z-index: 1 !important;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    min-height: 7.5vh;
+	height: 7.5vh;
+    transition: 0.3s ease;
+}
+header .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    padding: 0 10px; 
+}
+header .nav-list .ul{
+    list-style: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    overflow-x: hidden;
+    flex-direction: column;
+    transition: 0.5s ease left;
+	background-color: #282f35;
+}
+header .nav-list .ul.active{left: 8%;}
+header .nav-list .ul a{
+	margin-top: 10px; /* To center */
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    display: block;
+	transition: all 0.3s ease;
+}
+header .nav-list .ul a::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    font-size: 15rem;
+    letter-spacing: 50px;
+    z-index: -1;
+}
+header .nav-list .ul a:hover{
+    color: #ff671e;
+}
+header .hamburger{
+    z-index: 2;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transform: scale(0.8);
+    margin-right: 20px;
+}
+header .hamburger .bar{
+    height: 2px;
+    width: 30px;
+    position: relative;
+    background-color: white;
+    z-index: -1;
+}
+header .hamburger .bar::after, 
+header .hamburger .bar::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background-color: white;
+    transition: 0.3s ease;
+    transition-property: top, bottom;
+}
+header .hamburger .bar::after{top: 8px;}
+header .hamburger .bar::before{bottom: 8px;}
+header .hamburger.active .bar::before{bottom: 0;}
+header .hamburger.active .bar::after{top: 0;}
+
+
+@media only screen and (min-width: 1200px){
+    header .hamburger{display: none;}
+    header .nav-list .ul{
+        position: initial;
+        display: block;
+        height: auto;
+        width: fit-content;
+        background-color: transparent;
+    }
+	header .header .nav-bar .nav-list ul li>a{
+		font-size: 18px;
+	}
+    header .nav-list .ul li{display: inline-block;}
+    header .nav-list .ul li a{font-size: 1.8rem;}
+    header .nav-list .ul a::after{display: none;}
+}
+@media (min-width: 1000px) and (max-width:1200px){
+	header .header .nav-bar .nav-list ul li>a{
+		font-size: 20px;
+	}
+}
+@media (min-width: 280px) and (max-width: 540px){
+	header .nav-bar .brand>img{
+		width: 100px;
+	}
+    header .header .nav-bar .nav-list ul li>a{
+		font-size: 15px;
+	}
+}
+@media (min-width: 280px) and (max-width: 580px){
+	header .header .nav-bar .nav-list .hamburger{
+        transform: scale(0.5);
+		margin-right: 0;
+    }
+}
+/* nav#menu span.fa.fa-bars{
 	font-size: 30px;
 	position: fixed;
 	left: 120px;
 	color: #c0c0c0;
 	cursor: pointer;
 	z-index: 1;
-	transition: 0.3s;
 }
 
 .navmenu, .navbar-offcanvas {
@@ -183,6 +324,7 @@ nav#menu span.fa.fa-bars{
 	text-transform: uppercase;
 	font-size: 12px;
 	line-height: 30px;
+	transition: all ease .3s;
 }
 nav#menu span.fa.fa-bars:hover {
 	color: #ff671e;
@@ -195,7 +337,8 @@ nav#menu span.fa.fa-bars:hover {
 .navbar-default .navbar-offcanvas .navmenu-nav>.active>a:focus {
 	color: #ff671e;
 	background-color: transparent;
-}
+} */
+/* =================== NAV BAR END ====================== */
 
 .close:hover{
 	background: transparent;
@@ -279,18 +422,19 @@ a.down-btn span.fa.fa-angle-down {
 	transition: all 0.3s;
 	position: relative;
 	padding: 60px 25px;
+	transition: all ease-in .3s;
 }
+h4, span.fa {
+	transition: all ease .3s;
+}
+
 .service:hover>h4,
 .service:hover>span.fa{
 	color: #ff671e;
 }
 .service:hover{
 	border-color: #ff671e;
-	margin-top: 0px;
-	margin-bottom: 0px;
 	cursor: pointer;
-	padding-top: 80px;
-	padding-bottom: 80px;
 }
 .service p{
 	font-size: 14px;
@@ -399,7 +543,7 @@ a.btn.read-more-btn:hover{
 	color: #ffffff;
 }
 
-a.btn.send-btn{
+input.btn.send-btn{
 	text-transform: uppercase;
 	background: #ff671e;
 	color: #282f35;
@@ -409,7 +553,7 @@ a.btn.send-btn{
 	color: #ffffff;
 	transition: all 0.5s;
 }
-a.btn.send-btn:hover{
+input.btn.send-btn:hover{
 	background: transparent;
 	border: 1px solid #ff671e;
 	color: #ffffff;
