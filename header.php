@@ -40,7 +40,7 @@
         <nav class="header container-header">
             <div class="nav-bar">
                 <div class="brand">
-                    <img src="img/logo-small.png" alt="LOGO">
+                    <img src="img/logo-small.png" alt="Go Tech Web Solutions">
                 </div>
                 <div class="nav-list">
                     <div class="hamburger"><div class="bar"></div></div>

@@ -663,7 +663,9 @@ ul.clients li{
 	padding: 100px 0;
 	color: #ffffff;
 }
-
+textarea{
+	resize: none;
+}
 ul.social li{
 	display: inline-block;
 	margin-right: 20px;
@@ -715,11 +717,13 @@ address{
 }
 /*  */
 
-#contact input.form-control,
-#contact textarea.form-control {
-margin-bottom: 30px;
+#contact input.form-control{
+	margin-bottom: 30px;
 }
-
+#contact textarea.form-control {
+	margin-bottom: 30px;
+	height: 100px;
+}
 #contact .form-control {
 	display: block;
 	width: 100%;
