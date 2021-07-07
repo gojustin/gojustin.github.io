@@ -42,17 +42,17 @@
         <nav class="header container-header">
             <div class="nav-bar">
                 <div class="brand">
-                    <a href="#home"><img src="img/logo-small.png" alt="Go Tech Web Solutions"></a>
+                    <a href="#home" class="page-scroll"><img src="img/logo-small.png" alt="Go Tech Web Solutions"></a>
                 </div>
                 <div class="nav-list">
                     <div class="hamburger"><div class="bar"></div></div>
                     <ul class="ul">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#meet-us">Overview</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#works">Portfolio</a></li>
-                        <li><a href="#about-us">About Us</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#home" class="page-scroll">Home</a></li>
+                        <li><a href="#meet-us" class="page-scroll">Overview</a></li>
+                        <li><a href="#services" class="page-scroll">Services</a></li>
+                        <li><a href="#works" class="page-scroll">Portfolio</a></li>
+                        <li><a href="#about-us" class="page-scroll">About Us</a></li>
+                        <li><a href="#contact" class="page-scroll">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -81,3 +81,16 @@
             </a>
         </div>
     </div>
+    <script>
+    $(document).keyup(function(e) {
+        if (e.key === "Escape") { // escape key maps to keycode `27`
+        modal.style.display = 'none';
+        }
+        else if (e.key === "ArrowRight") {
+            $('.next').click();
+        }
+        else if(e.key === "ArrowLeft"){
+            $('.prev').click();
+        }
+    });
+    </script>

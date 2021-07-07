@@ -9,7 +9,6 @@ body, html{
   overflow-y: auto;
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
-  scroll-behavior: smooth;
 }
 @media (min-width: 1200px){
 	.container {
