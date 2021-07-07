@@ -239,8 +239,8 @@
                 </div>
 
                 <ul class="clients">
-                    <li><a href="#"><img src="img/clients/01.png" class="img-responsive" alt="..."></a></li>
-                    <li><a href="#"><img src="img/clients/02.png" class="img-responsive" alt="..."></a></li>
+                    <li><a href="https://aquaponicsgogreen.com/" target="_blank"><img src="img/clients/01.png" class="img-responsive" alt="Aquaponics Go Green"></a></li>
+                    <li><a href="https://aggtedeck.com/" target="_blank"><img src="img/clients/02.png" class="img-responsive" alt="AGGTE deck Cladding and Decking"></a></li>
                     <li><a href="#"><img src="img/clients/03.png" class="img-responsive" alt="..."></a></li>
                     <!-- <li><a href="#"><img src="img/clients/04.png" class="img-responsive" alt="..."></a></li> -->
                 </ul>

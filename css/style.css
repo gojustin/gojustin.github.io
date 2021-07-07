@@ -9,6 +9,7 @@ body, html{
   overflow-y: auto;
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 }
 @media (min-width: 1200px){
 	.container {
@@ -174,7 +175,7 @@ header .nav-bar{
 header .nav-list .ul{
     list-style: none;
     position: absolute;
-    width: 100vw;
+    width: 50vw; /* Hamburger initial width */
     height: 100vh;
     top: 0;
     left: 100%;
@@ -187,7 +188,7 @@ header .nav-list .ul{
     transition: 0.5s ease left;
 	background-color: #282f35;
 }
-header .nav-list .ul.active{left: 8%;}
+header .nav-list .ul.active{left: 50%;} /* Container push amount */
 header .nav-list .ul a{
 	margin-top: 10px; /* To center */
     font-size: 2rem;

@@ -8,6 +8,8 @@
     <meta name="description" content="Your Description Here">
     <meta name="keywords" content="free boostrap, bootstrap template, freebies, free theme, free website, free portfolio theme, portfolio, personal, cv">
     <meta name="author" content="Jenn, ThemeForces.com">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     
     <!-- Favicons
     ================================================== -->
@@ -40,17 +42,17 @@
         <nav class="header container-header">
             <div class="nav-bar">
                 <div class="brand">
-                    <a href="#home" class="page-scroll"><img src="img/logo-small.png" alt="Go Tech Web Solutions"></a>
+                    <a href="#home"><img src="img/logo-small.png" alt="Go Tech Web Solutions"></a>
                 </div>
                 <div class="nav-list">
                     <div class="hamburger"><div class="bar"></div></div>
                     <ul class="ul">
-                        <li><a href="#home" class="page-scroll">Home</a></li>
-                        <li><a href="#meet-us" class="page-scroll">Overview</a></li>
-                        <li><a href="#services" class="page-scroll">Services</a></li>
-                        <li><a href="#works" class="page-scroll">Portfolio</a></li>
-                        <li><a href="#about-us" class="page-scroll">About Us</a></li>
-                        <li><a href="#contact" class="page-scroll">Contact Us</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#meet-us">Overview</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#works">Portfolio</a></li>
+                        <li><a href="#about-us">About Us</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
