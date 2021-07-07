@@ -264,14 +264,21 @@ header .hamburger.active .bar::after{top: 0;}
 	header .header .nav-bar .nav-list ul li>a{
 		font-size: 18px;
 	}
+	header .nav-bar .brand>img{
+		width: 150px;
+	}
     header .nav-list .ul li{display: inline-block;}
     header .nav-list .ul li a{font-size: 1.8rem;}
     header .nav-list .ul a::after{display: none;}
 }
-@media (min-width: 1000px) and (max-width:1200px){
-	header .header .nav-bar .nav-list ul li>a{
-		font-size: 20px;
+@media (max-width:1200px){
+	header .nav-bar .brand>img{
+		width: 140px;
 	}
+	header .header .nav-bar .nav-list .hamburger{
+        transform: scale(0.7);
+		margin-right: 0;
+    }
 }
 @media (min-width: 280px) and (max-width: 540px){
 	header .nav-bar .brand>img{
