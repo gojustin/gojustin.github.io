@@ -729,7 +729,7 @@ address{
 }
 #contact textarea.form-control {
 	margin-bottom: 30px;
-	height: 100px;
+	height: 120px; /* Message Box Height */
 }
 #contact .form-control {
 	display: block;
