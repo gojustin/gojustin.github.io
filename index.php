@@ -10,7 +10,7 @@
                         <h2>Meet Us</h2>
                         <hr>
                     </div>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dignissimos modi totam esse iusto in.</p>
                     <a href="#services" class="down-btn page-scroll">
                         <span class="fa fa-angle-down"></span>
                     </a>
@@ -275,7 +275,7 @@
                                 <div class="flex-icon">
                                     <a href="" class="fa fa-facebook" id="about-icons"></a>
                                     <a href="" class="fa fa-linkedin" id="about-icons"></a>
-                                    <a href="" class="fa fa-youtube" id="about-icons"></a>
+                                    <a href="" class="fa fa-youtube-play" id="about-icons"></a>
                                 </div>
                                 <!--  -->
                             </div>
@@ -292,7 +292,7 @@
                                 <div class="flex-icon">
                                     <a href="" class="fa fa-facebook" id="about-icons"></a>
                                     <a href="" class="fa fa-linkedin" id="about-icons"></a>
-                                    <a href="" class="fa fa-youtube" id="about-icons"></a>
+                                    <a href="" class="fa fa-youtube-play" id="about-icons"></a>
                                 </div>
                                 <!--  -->
                             </div>
@@ -309,7 +309,7 @@
                                 <div class="flex-icon">
                                     <a href="" class="fa fa-facebook" id="about-icons"></a>
                                     <a href="" class="fa fa-linkedin" id="about-icons"></a>
-                                    <a href="" class="fa fa-youtube" id="about-icons"></a>
+                                    <a href="" class="fa fa-youtube-play" id="about-icons"></a>
                                 </div>
                                 <!--  -->
                             </div>
@@ -326,7 +326,7 @@
                                 <div class="flex-icon">
                                     <a href="" class="fa fa-facebook" id="about-icons"></a>
                                     <a href="" class="fa fa-linkedin" id="about-icons"></a>
-                                    <a href="" class="fa fa-youtube" id="about-icons"></a>
+                                    <a href="" class="fa fa-youtube-play" id="about-icons"></a>
                                 </div>
                                 <!--  -->
                             </div>
@@ -400,4 +400,9 @@
             </div>
         </div>
     </div>
+
+    <div class="poster-cont">
+        <img src="img/contact.jpg" class="poster" width="100%" height="auto"/>
+    </div>
+
 <?php include('footer.php'); ?>

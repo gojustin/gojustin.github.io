@@ -41,9 +41,12 @@
     <header>
         <nav class="header container-header">
             <div class="nav-bar">
+
                 <div class="brand">
                     <a href="#home" class="page-scroll"><img src="img/logo-small.png" alt="Go Tech Web Solutions"></a>
+                    <h3 class="para-brand">Web Solutions<br>Website Design Services</h3>
                 </div>
+                
                 <div class="nav-list">
                     <div class="hamburger"><div class="bar"></div></div>
                     <ul class="ul">
@@ -81,10 +84,11 @@
             </a>
         </div>
     </div>
+
     <script>
     $(document).keyup(function(e) {
-        if (e.key === "Escape") { // escape key maps to keycode `27`
-        modal.style.display = 'none';
+        if (e.key === "Escape") {
+            modal.style.display = 'none';
         }
         else if (e.key === "ArrowRight") {
             $('.next').click();

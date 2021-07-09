@@ -12,8 +12,7 @@
                 <div class="col-md-3">
                     <address>
                         <strong>Address</strong><br><br>
-                        #6 M&M Arcade Building, Laqui Street, Pinagkurusan, Alitagtag, Batangas<br>
-                        4208 Philippines<br><br>
+                        Taal, Batangas<br><br>
                             <!-- Separated contacts with icon -->
                         <div class="icon-contacts">
                             <strong>Contacts</strong><br>
@@ -27,7 +26,7 @@
                             <li><a href=""><span class="fa fa-facebook"></span></a></li>
                             <li><a href=""><span class="fa fa-google-plus"></span></a></li>
                             <li><a href=""><span class="fa fa-twitter"></span></a></li>
-                            <li><a href=""><span class="fa fa-youtube"></span></a></li>
+                            <li><a href=""><span class="fa fa-youtube-play"></span></a></li>
                         </ul>
                     </address>
                 </div>

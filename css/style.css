@@ -146,6 +146,50 @@ span.typed-cursor {
 }*/
 
 /* =================== NAV BAR ====================== */
+
+.poster{
+	width:100%; 
+	height:auto;
+}
+
+/* Typography */
+.para-brand{
+	font-style: normal; 
+	float: right; 
+	position: relative; 
+	color: white;
+	line-height: 20px;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+@media only screen and (max-width: 500px){
+	.para-brand{
+		font-size: 10px; /* To match the size of the logo */
+		line-height: 15px; /* To match the size of the logo */
+		bottom: 2px; /* To center */
+	}
+}
+@media only screen and (max-width: 441px){
+	.para-brand{
+		font-size: 10px; /* To match the size of the logo */
+		line-height: 12px; /* To match the size of the logo */
+		top: 3.5px; /* To center */
+	}
+}
+@media (min-width: 500px) and (max-width: 540px){
+	.para-brand{
+		font-size: 12px; /* To match the size of the logo */
+		line-height: 15px; /* To match the size of the logo */
+		bottom: 2px; /* To center */
+	}
+}
+@media (max-width: 310px){
+	.para-brand{
+		display: none;
+	}
+} 
+/* Typography END */
+
 .container-header{
     width: 100%;
     display: flex;
@@ -261,8 +305,8 @@ header .hamburger.active .bar::after{top: 0;}
         width: fit-content;
         background-color: transparent;
     }
-	header .header .nav-bar .nav-list ul li>a{
-		font-size: 18px;
+	header .header .nav-bar .nav-list .ul li>a{
+		font-size: 15px;
 	}
 	header .nav-bar .brand>a>img{
 		width: 150px;
@@ -282,9 +326,9 @@ header .hamburger.active .bar::after{top: 0;}
 }
 @media (min-width: 280px) and (max-width: 540px){
 	header .nav-bar .brand>a>img{
-		width: 100px;
+		width: 115px;
 	}
-    header .header .nav-bar .nav-list ul li>a{
+    header .header .nav-bar .nav-list .ul li>a{
 		font-size: 15px;
 	}
 }
@@ -803,3 +847,6 @@ nav#footer{
 }
 #footer a:hover{
 	color: #ff671e;}
+
+
+
