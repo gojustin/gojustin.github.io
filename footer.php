@@ -89,7 +89,7 @@
     <!-- Javascripts
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/img-modal.js"></script>
+    <!-- <script type="text/javascript" src="js/img-modal.js"></script> -->
     <script type="text/javascript" src="js/lightbox.js"></script>
     <script type="text/javascript" src="js/nav-bar.js"></script>
 

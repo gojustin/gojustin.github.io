@@ -1,3 +1,4 @@
+<?php $absoluteRoot = "/gotech"?>
 <head>
     <!-- Basic Page Needs
     ================================================== -->
@@ -39,12 +40,28 @@
 <body>
     <!-- Start Navigation -->
     <header>
+        <div class="upper-hdr">
+            <div class="flex-upper">
+                <div class="pull">
+                    
+                    <ul class="social-up">
+                        <li><a href=""><span class="fa fa-facebook"></span></a></li>
+                        <li><a href=""><span class="fa fa-google-plus"></span></a></li>
+                        <li><a href=""><span class="fa fa-twitter"></span></a></li>
+                        <li><a href=""><span class="fa fa-youtube-play"></span></a></li>
+                    </ul>
+                    
+                    <h3 class="para-brand">Go Tech Web Solutions<br>Website Design Services</h3>
+                </div>
+                <h3 class="cnumber"><i class="fa fa-phone-square" style="color: white; font-size: 20px; transform: translateY(10%);"></i> (+63) 975-241-2350</h3>
+            </div>
+        </div>
+        
         <nav class="header container-header">
-            <div class="nav-bar">
 
+            <div class="nav-bar">
                 <div class="brand">
-                    <a href="#home" class="page-scroll"><img src="img/logo-small.png" alt="Go Tech Web Solutions"></a>
-                    <h3 class="para-brand">Web Solutions<br>Website Design Services</h3>
+                    <a href="#home" class="page-scroll"><img src="<?php echo $absoluteRoot ?>/img/logo-small.png" alt="Go Tech Web Solutions"></a>
                 </div>
                 
                 <div class="nav-list">
@@ -56,45 +73,10 @@
                         <li><a href="#works" class="page-scroll">Portfolio</a></li>
                         <li><a href="#about-us" class="page-scroll">About Us</a></li>
                         <li><a href="#contact" class="page-scroll">Contact Us</a></li>
+                        <li><a href="php/quote.php"><input class="btn send-btn" type="button" value="Get A Quote" /></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
     <!-- End Navigation -->
-
-    <!-- Home Section -->
-    <div id="home">
-        <div class="container text-center">
-            <!-- Navigation -->
-            <!-- <nav id="menu" data-toggle="offcanvas" data-target=".navmenu">
-                <span class="fa fa-bars"></span>
-            </nav> -->
-
-            <div class="content">
-                <h4>We've got the special power</h4>
-                <hr>
-                <div class="header-text btn">
-                    <h1><span id="head-title"></span></h1>
-                </div>
-            </div>
-
-            <a href="#meet-us" class="down-btn page-scroll">
-                <span class="fa fa-angle-down"></span>
-            </a>
-        </div>
-    </div>
-
-    <script>
-    $(document).keyup(function(e) {
-        if (e.key === "Escape") {
-            modal.style.display = 'none';
-        }
-        else if (e.key === "ArrowRight") {
-            $('.next').click();
-        }
-        else if(e.key === "ArrowLeft"){
-            $('.prev').click();
-        }
-    });
-    </script>

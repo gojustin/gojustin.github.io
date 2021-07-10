@@ -147,21 +147,78 @@ span.typed-cursor {
 
 /* =================== NAV BAR ====================== */
 
-.poster{
-	width:100%; 
-	height:auto;
+.upper-hdr{
+	/* Display at JS */
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+    transition: 0s all ease;
 }
-
-/* Typography */
+.pull{
+	display: flex;
+	margin: 0;
+	position: relative;
+	align-items: center;
+	justify-content: space-between;
+}
+.flex-upper{
+	display: flex;
+	margin: 0;
+	position: relative;
+	-ms-transform: translateY(-20%);
+	transform: translateY(-20%);
+	align-items: center;
+	justify-content: space-between;
+}
+.cnumber{
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	margin-right: 100px;
+}
 .para-brand{
-	font-style: normal; 
-	float: right; 
+	font-style: normal;
 	position: relative; 
 	color: white;
 	line-height: 20px;
-	margin-top: 5px;
-	margin-bottom: 0;
 }
+.social-up{
+	transform: translateY(-10%);
+	margin-left: 100px;
+}
+ul.social-up li{
+	display: inline-block;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+ul.social-up li a{
+	color: #ffffff;
+	font-size: 16px;
+}
+
+@media only screen and (max-width: 720px){
+	.para-brand{
+		display: none;
+	}
+}
+@media only screen and (max-width: 560px){
+	.cnumber{
+		display: none;
+	}
+	.social-up{
+		margin: auto;
+		display: flex;
+		justify-content: center;
+	}
+	.social-up span{
+		margin-left: 30px;
+	}
+}
+
+/* Typography */
 @media only screen and (max-width: 500px){
 	.para-brand{
 		font-size: 10px; /* To match the size of the logo */
@@ -200,7 +257,7 @@ header .header{
 	position: fixed;
     z-index: 1 !important;
     left: 0;
-    top: 0;
+    top: 50px;
     width: 100vw;
     min-height: 7.5vh;
 	height: 7.5vh;
@@ -213,7 +270,7 @@ header .nav-bar{
     width: 100%;
     height: 100%;
     max-width: 1300px;
-    padding: 0 10px; 
+    padding: 0 10px;
 }
 header .nav-list .ul{
     list-style: none;
@@ -222,7 +279,7 @@ header .nav-list .ul{
     height: 100vh;
     top: 0;
     left: 100%;
-    display: flex;
+	display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1;
@@ -708,6 +765,10 @@ ul.clients li{
 	padding: 100px 0;
 	color: #ffffff;
 }
+.poster{
+	width:100%; 
+	height:auto;
+}
 textarea{
 	resize: none;
 }
@@ -830,7 +891,6 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     letter-spacing: 1px;
     font-style: italic;
 }
-
 nav#footer{
 	background: #282f35;
 	padding: 40px 0;
