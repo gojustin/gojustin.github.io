@@ -36,7 +36,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                                <input type="tel" name="phoneNumber" class="form-control" placeholder="Phone No." required>
+                                <input type="number" name="phoneNumber" class="form-control" placeholder="Phone No." required>
                             </div>
                             <div class="col-md-6">
                                 <input type="email" name="email" class="form-control" placeholder="Email" required>

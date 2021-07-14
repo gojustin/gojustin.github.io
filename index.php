@@ -436,8 +436,8 @@
         </div>
     </div>
 
-    <div class="poster-cont">
+    <!-- <div class="poster-cont">
         <img src="img/contact.jpg" class="poster" width="100%" height="auto"/>
-    </div>
+    </div> -->
 
 <?php include('footer.php'); ?>

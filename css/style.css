@@ -173,11 +173,12 @@ span.typed-cursor {
 	align-items: center;
 	justify-content: space-between;
 }
-.cnumber{
+.cNumber{
 	color: white;
 	font-weight: bold;
 	font-size: 18px;
 	margin-right: 100px;
+	transform: translateY(-5%);
 }
 .para-brand{
 	font-style: normal;
@@ -199,14 +200,23 @@ ul.social-up li a{
 	font-size: 16px;
 }
 
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 800px){
 	.para-brand{
 		display: none;
 	}
+	.social-up{
+		transform: translateY(-5%);
+	}
+	.cNumber{
+		transform: translateY(5%);
+	}
 }
 @media only screen and (max-width: 560px){
-	.cnumber{
+	.cNumber{
 		display: none;
+	}
+	.flex-upper{
+		justify-content: center;
 	}
 	.social-up{
 		margin: auto;
@@ -286,7 +296,7 @@ header .nav-list .ul{
     overflow-x: hidden;
     flex-direction: column;
     transition: 0.5s ease left;
-	background-color: #282f35;
+	background-color: #282f35e3;
 }
 header .nav-list .ul.active{left: 50%;} /* Container push amount */
 header .nav-list .ul a{
@@ -827,7 +837,14 @@ address{
 	}
 }
 /*  */
+input[type='number'] {
+    -moz-appearance:textfield;
+}
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
 
 #contact input.form-control{
 	margin-bottom: 30px;
